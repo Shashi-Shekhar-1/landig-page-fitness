@@ -358,6 +358,14 @@ body {
     justify-content: space-evenly;
 }
 
+@media(max-width:768px){
+  .container2{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+  }
+}
+
 .container2 img{
   border-radius: 15px;
 }
@@ -407,16 +415,11 @@ body {
 }
 
 
-@media(max-width:480px){
+@media(max-width:768px){
 .container3 {
-   width: 100%;
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: repeat(3, 1fr); */
     gap: 10px;
-    text-align: center;
-    margin-top: 10px;
-    max-width: none;
 }
 }
 
@@ -433,13 +436,9 @@ body {
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .box1 {
     width: 100%;
-    height: auto;
-    border-radius: 15px;
-    overflow: hidden;
-    border: 5px solid orangered;
     padding: 8px;
     box-sizing: border-box;
   }
@@ -624,6 +623,8 @@ ul{
 @media(max-width:768px){
   .container6{
     display:flex;
+    gap: 18px;
+
   }
 }
   .box6 {
@@ -924,7 +925,7 @@ ul{
 
   .lasthead{
     color: red;
-    size: 10px;
+    size: 20px;
     font-weight: 700;
   }
 
@@ -932,7 +933,7 @@ ul{
   .lasthead{
   display:flex;
   font-weight:500px;
-  font-size:20px;
+  font-size:10px;
   gap:20px;
   }
 }
@@ -945,7 +946,7 @@ ul{
 @media(max-width:768px){
   .lasthead1{
   font-weight:500px;
-  font-size:20px;
+  font-size:10px;
   margin-top:40px;
   }
 }
@@ -1155,7 +1156,7 @@ ul{
 @media (max-width:640px){
 .card1{
     left:10%;
-    top:80%;
+    top:90%;
     
     
 }
@@ -1186,10 +1187,10 @@ ul{
     
 }
 
-@media (max-width:640px){
+@media (max-width:768px){
 .card3{
     right:10%;
-    bottom:-5%;
+    bottom:-35%;
     
 }
 

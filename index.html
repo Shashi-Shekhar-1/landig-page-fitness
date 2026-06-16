@@ -159,15 +159,19 @@
   <div class="container2">
 
     <div class="box">
+      <div class="glow1"></div>
       <img src="photos/services1.png" alt="services">
     </div>
     <div class="box">
+      <div class="glow1"></div>
       <img src="photos/services2.png" alt="services">
     </div>
     <div class="box">
+      <div class="glow1"></div>
       <img src="photos/services3.png" alt="services">
     </div>
     <div class="box">
+      <div class="glow1"></div>
       <img src="photos/services4.png" alt="services">
     </div>
 
@@ -385,6 +389,7 @@
 
   <div class="container7">
     <div class="box71 box7">
+      <div class="glow1"></div>
       <img src="photos/blog_post1.jpg" alt="blog post">
       <div class="blog_text">
         5 Essential Exercise For Building Muscle<br />
@@ -392,8 +397,10 @@
 
       </div>
     </div>
+    <div class="glow1"></div>
 
     <div class="box71">
+      
       <img src="photos/blog_post2.png" alt="blog post">
       <div class="blog_text2">
         The Ultimate Guide To A Balanced Diet<br />
@@ -404,6 +411,7 @@
 
 
     <div class="box71">
+      
       <img src="photos/blog_post3.png" alt="blog post">
       <div class="blog_text2">
         The Benefits of HIIL Training<br />
@@ -599,28 +607,28 @@
       </div>
 
       <div class="lastbox2">
-        <h2 class="lasthead">Company</h2>
+        <p class="lasthead">Company</p>
         <h3 class="commonstyle">About Us <br /> Our Services <br /> Careers <br />Blog <br />Testimonial <br />Contact
-          Us</h3>
+          us</h3>
       </div>
 
       <div class="lastbox2">
-        <h2 class="lasthead">Resources</h2>
+        <p class="lasthead">Resources</p>
         <h3 class="commonstyle">Fitness Tools<br /> Workout Videos <br /> Nutrition Guides <br />FAQ <br />Success
           Stories <br />Membership</h3>
       </div>
 
       <div class="lastbox2">
-        <h2 class="lasthead">Programs</h2>
+        <hp class="lasthead">Programs</p>
         <h3 class="commonstyle">Weight Loss<br /> Building Muscles <br /> Home Workout <br />Gym Plan<br />Our Plan
           <br />Fitness Group
         </h3>
 
       </div>
       <div class="lastbox2">
-        <h2 class="lasthead1">Contact Us</h2>
+        <p class="lasthead1">Contact </p>
         <h3 class="commonstyle"><i class="fa-solid fa-location"></i> BIT Sindri<br /> <i
-            class="fa-solid fa-phone"></i>9142060041<br /> <i class="fa-solid fa-envelope"></i>0.shekhar@gmail.com</h3>
+            class="fa-solid fa-phone"></i>9142060041<br /> <i class="fa-solid fa-envelope"></i>.com</h3>
 
 
       </div>
@@ -631,44 +639,7 @@
   </div>
 
   <script src="script.js"></script>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	
-</script>
+
 </body>
 
 </html>
