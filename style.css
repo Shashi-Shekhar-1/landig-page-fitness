@@ -31,8 +31,8 @@ body {
   
   margin-top: 10px;
   font-size: 8px;
-    gap:3px;
- 
+    gap:2px;
+   
 }
 }
 
@@ -86,13 +86,14 @@ body {
   display: flex;
   margin-top: 15px;
   gap: 25px;
+  justify-content: center;
 
 }
 
 @media(max-width:768px){
   .btnheading{
-  gap:5px;
-    flex-direction:column;
+  gap:15px;
+  justify-content: center;
 }
 }
 
@@ -256,6 +257,16 @@ body {
   padding:60px 50px;
 }
 
+@media(max-width:768px){
+  .img-box img{
+  width: 250px;
+  height: 250px;
+  
+}
+
+}
+
+
 .footer-1{
   display:flex;
   justify-content: space-evenly;
@@ -278,14 +289,7 @@ body {
   gap:30px;
 }
 
-/* @media(max-width:768px){
-  .satisfy{
-  display:flex;
-  flex-direction:column;
-  width:30px;
-  }
-}
- */
+
 .percent{
   color: red;
   font-size: 3rem;
@@ -307,13 +311,7 @@ body {
   
 }
 
- /* @media(max-width:768px){
-   .satisfy{
-     display:flex;
-     flex-direction:column
-   }
- } */
-
+ 
 .line{
   display: flex;
 }
@@ -1156,7 +1154,7 @@ ul{
 @media (max-width:640px){
 .card1{
     left:10%;
-    top:90%;
+    top:100%;
     
     
 }
@@ -1173,7 +1171,7 @@ ul{
 @media (max-width:640px){
 .card2{
     right:55%;
-    top:100%;
+    top:135%;
    border: 2px solid red;
     line-height: 0.01;
 }
@@ -1189,7 +1187,7 @@ ul{
 
 @media (max-width:768px){
 .card3{
-    right:10%;
+    right:30%;
     bottom:-35%;
     
 }
